@@ -103,13 +103,18 @@ git checkout _branchname_
 ```
 > [!NOTE]
 > _head ->_ points towards which branch is currently selected
-#### Update Changes on Local Repo
+#### Update Changes on Local Repo (all files)
 ```
 git fetch --all
 git pull origin _branchname_
 ```
+#### Update Changes on Local Repo (single file)
+```
+git fetch --all
+git checkout origin/master -- _filePath_
+```
 > [!NOTE]
-> _-all_ can be replaced with _filename_
+> "_origin/master_" is subject to change depending on where you're working.
 #### Merging
 ```
 git checkout _branch-you-wanna-merge-in_
