@@ -115,6 +115,14 @@ git checkout origin/master -- _filePath_
 ```
 > [!NOTE]
 > "_origin/master_" is subject to change depending on where you're working.
+#### Delete Branch (local)
+```
+git branch -d _branch_
+```
+#### Delete Branch (remote)
+```
+git push origin --delete _branch_
+```
 #### Merging
 ```
 git checkout _branch-you-wanna-merge-in_
