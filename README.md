@@ -158,3 +158,10 @@ You can't push to uptream directly so **you'll have to make a _Pull Request_**
    ```
 > [!NOTE]
 > _--prune_ includes deleted files as well.
+
+## Setup account (?)
+
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name
+```
