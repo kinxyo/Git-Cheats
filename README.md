@@ -165,3 +165,13 @@ You can't push to uptream directly so **you'll have to make a _Pull Request_**
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name
 ```
+
+---
+
+## Miscellaneous
+
+### View contributions
+
+```bash
+git shortlog -s -n
+```
